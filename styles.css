@@ -80,7 +80,6 @@ body{
 .section-subtitle{text-align:center;color:var(--text-secondary);font-size:16px;max-width:600px;margin:0 auto 60px;}
 
 /* Projects ----------------------------------------------------------------*/
-/* Projects ----------------------------------------------------------------*/
 .projects {
   padding: 100px 0;
   background: var(--bg-secondary);
@@ -227,50 +226,23 @@ body{
   opacity: 1;
 }
 
-/* ========== RESPONSIVIDADE ========== */
+/* ========== RESPONSIVIDADE (Projects) ========== */
 
 /* Tablet - 2 cards por linha */
 @media (max-width: 992px) {
-  .projects-grid {
-    gap: 20px;
-  }
-  
-  .project-card {
-    flex: 0 1 calc(50% - 10px);
-    max-width: 360px;
-  }
+  .projects-grid { gap: 20px; }
+  .project-card { flex: 0 1 calc(50% - 10px); max-width: 360px; }
 }
 
 /* Mobile - 1 card por linha */
 @media (max-width: 600px) {
-  .projects {
-    padding: 80px 0;
-  }
-  
-  .projects-grid {
-    gap: 16px;
-  }
-  
-  .project-card {
-    flex: 0 1 100%;
-    max-width: 100%;
-    padding: 28px 24px;
-  }
-  
-  .project-icon {
-    width: 56px;
-    height: 56px;
-  }
-  
-  .project-title {
-    font-size: 17px;
-  }
-  
-  .project-desc {
-    font-size: 13px;
-  }
+  .projects { padding: 80px 0; }
+  .projects-grid { gap: 16px; }
+  .project-card { flex: 0 1 100%; max-width: 100%; padding: 28px 24px; }
+  .project-icon { width: 56px; height: 56px; }
+  .project-title { font-size: 17px; }
+  .project-desc { font-size: 13px; }
 }
-
 
 /* Experience --------------------------------------------------------------*/
 .experience{padding:100px 0;background:var(--bg-secondary);}
@@ -299,6 +271,10 @@ body{
 .automation-icon{background:linear-gradient(135deg,rgba(59,130,246,.2),rgba(6,182,212,.2));color:var(--accent-cyan);}
 .code-icon{background:linear-gradient(135deg,rgba(168,85,247,.2),rgba(236,72,153,.2));color:var(--accent-purple);}
 .data-icon{background:linear-gradient(135deg,rgba(59,130,246,.2),rgba(168,85,247,.2));color:var(--accent-blue);}
+
+/* NOVO: Web & Design */
+.web-icon{background:linear-gradient(135deg,rgba(236,72,153,.2),rgba(6,182,212,.2));color:var(--accent-pink);}
+
 .skill-header h3{font-size:18px;font-weight:600;color:var(--text-primary);}
 .skill-tags{display:flex;flex-wrap:wrap;gap:10px;}
 .skill-tags span{padding:8px 16px;background:var(--bg-secondary);color:var(--text-secondary);border-radius:8px;font-size:13px;font-weight:500;transition:.3s;}
@@ -407,4 +383,3 @@ body{
   .hero-buttons{flex-direction:column;width:100%;padding:0 20px;}
   .job-header{flex-direction:column;gap:8px;}
 }
- 
